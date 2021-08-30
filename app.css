@@ -33,8 +33,7 @@ body {
 
 .heading {
   text-align: center;
-  margin: 1rem;
-  padding: 3%;
+  padding: 2%;
 }
 
 .container {
@@ -73,12 +72,22 @@ button {
   color: var(--color);
 }
 
+#output-div {
+  text-align: center;
+  margin: auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
 .footer {
+  display: block;
   position: fixed;
-  bottom: 0;
+  bottom: 0%;
   left: 40%;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   color: white;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -98,7 +107,7 @@ button {
 
 .link {
   text-decoration: none;
-  padding: 0.4rem 1.2rem;
+  padding: 0.2rem 1.2rem;
 }
 
 .footer .link {
@@ -120,19 +129,42 @@ button {
     padding: 0.5rem;
   }
   .container {
-    width: 90%;
+    width: 100%;
+    padding: 1%;
+  }
+
+  label {
+    margin: 0.2rem;
   }
 
   input {
-    width: 60%;
+    margin: 0.2rem auto;
+    width: 90%;
   }
+
+  button {
+    margin: 0.5rem auto;
+  }
+
+  #output-div {
+    margin: 0.2rem;
+    font-size: 1.2rem;
+  }
+
   #calculate-area,
   #submit-answer-btn,
   #calculate-btn,
   #check-btn {
     width: 80%;
+    padding: 0.5rem;
   }
+
+  .question-container {
+    margin: 0.5%;
+    padding: 0;
+  }
+
   .footer {
-    left: 5%;
+    left: 10%;
   }
 }

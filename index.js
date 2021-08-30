@@ -1,14 +1,14 @@
 const angle = document.querySelectorAll(".angle-input");
 const checkButton = document.querySelector("#check-btn");
-const outputPara = document.querySelector("#output-para");
+const outputDiv = document.querySelector("#output-div");
 
 function isTriangle() {
   if (angle[0].value === "") {
-    outputPara.innerText = "Enter First Angle of a Triangle";
+    outputDiv.innerText = "Enter First Angle of a Triangle";
   } else if (angle[1].value === "") {
-    outputPara.innerText = "Enter First Angle of a Triangle";
+    outputDiv.innerText = "Enter First Angle of a Triangle";
   } else if (angle[2].value === "") {
-    outputPara.innerText = "Enter First Angle of a Triangle";
+    outputDiv.innerText = "Enter First Angle of a Triangle";
   } else {
     const sumOfAngles = calculateSum(
       angle[0].value,
@@ -16,9 +16,9 @@ function isTriangle() {
       angle[2].value
     );
     if (sumOfAngles === 180) {
-      outputPara.innerText = "Yes Its a Triangle";
+      outputDiv.innerText = "Yes Its a Triangle";
     } else {
-      outputPara.innerText = "Given angles not form any triangle.";
+      outputDiv.innerText = "Given angles not form any triangle.";
     }
   }
 }

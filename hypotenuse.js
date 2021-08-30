@@ -9,7 +9,7 @@ function calcSum(a, b) {
 function calculateHypotenuse() {
   if (sides[0].value === "") {
     outputDiv.innerText = "Enter First Side of a Triangle";
-  } else if (side[1].value === "") {
+  } else if (sides[1].value === "") {
     outputDiv.innerText = "Enter Second side of a Triangle";
   } else {
     const sumOfSquares = calcSum(

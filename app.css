@@ -33,7 +33,7 @@ body {
 
 .heading {
   text-align: center;
-  padding: 2%;
+  padding: 1%;
 }
 
 .container {
@@ -49,9 +49,9 @@ body {
 }
 
 .question-container {
-  padding: 1rem;
+  padding: 0.5rem;
   border: var(--secondary-color) 2px solid;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 label {
@@ -65,7 +65,7 @@ input {
 
 button {
   background-color: var(--secondary-color);
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   padding: 1rem;
   width: 30%;
   font-size: 1rem;
@@ -74,8 +74,7 @@ button {
 
 #output-div {
   text-align: center;
-  margin: auto;
-  margin: 1rem;
+
   font-size: 1.5rem;
   font-weight: bolder;
 }
